@@ -11,7 +11,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "tf-staticsite-s3-state-v1"
+    bucket         = "bucketkledin"
     key            = "terraform.tfstate"
     dynamodb_table = "tf-staticsite-s3-state-v1"
     region         = "us-east-1"
@@ -26,3 +26,15 @@ provider "aws" {
   # profile                  = "fiap"
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> 7ca945342480109c3acb52b6b8bc44f0f61e5465
