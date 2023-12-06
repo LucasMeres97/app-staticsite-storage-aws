@@ -44,3 +44,5 @@ resource "aws_s3_object" "bucket-objects" {
   content_type = "text/html"
   etag         = md5(file("../app/${each.value}"))
 }
+
+
