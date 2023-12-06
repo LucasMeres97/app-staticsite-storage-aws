@@ -45,7 +45,7 @@ jobs:
       run: terraform validate
 
     - name: Step 08 - Terraform Plan
-      run: terraform terraform -chdir=C:\Users\logonrmlocal\Desktop\gskledin\app-staticsite-storage-aws>  plan -input=false -out tfplan
+      run: terraform terraform -chdir=  app-staticsite-storage-aws plan -input=false -out tfplan
 
     - name: Step 09 - Terraform Apply
       run: terraform apply -auto-approve -input=false tfplan
