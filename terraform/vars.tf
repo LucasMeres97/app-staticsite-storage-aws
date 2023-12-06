@@ -1,7 +1,7 @@
 # VARS
 
 variable "bucket_name" {
-  default = "tf-staticsite-s3-v1"
+  default = "bucketkledin"
 }
 
 variable "website_endpoint" {
